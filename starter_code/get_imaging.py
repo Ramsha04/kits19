@@ -31,7 +31,7 @@ def cleanup(bar, msg):
 
 if __name__ == "__main__":
     left_to_download = []
-    for i in range(300):
+    for i in range(10):
         if not get_destination(i).exists():
             left_to_download = left_to_download + [i]
 
